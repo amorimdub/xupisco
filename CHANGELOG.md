@@ -1,5 +1,12 @@
 # xupisco
 
+## 1.0.4
+
+### Patch Changes
+
+- f64c57c: add redis and fastify
+- c50e3b1: update
+
 ## 1.0.3
 
 ### Patch Changes

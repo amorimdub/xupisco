@@ -1,0 +1,17 @@
+{
+  "name": "xupisco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "Felipe Amorim <amorimdub@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}

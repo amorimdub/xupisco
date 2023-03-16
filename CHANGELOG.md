@@ -1,5 +1,11 @@
 # xupisco
 
+## 1.1.0
+
+### Minor Changes
+
+- 89ca588: setup new version
+
 ## 1.0.4
 
 ### Patch Changes

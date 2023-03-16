@@ -2,6 +2,7 @@
   "name": "xupisco",
   "version": "1.0.4",
   "description": "",
+  "repository": "https://github.com/amorimdub/xupisco",
   "private": "false",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

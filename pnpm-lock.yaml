@@ -6,6 +6,7 @@ specifiers:
   dotenv: ^16.0.3
   fastify: ^4.14.1
   redis: ^4.6.5
+  redis-om: ^0.3.6
   tsup: ^6.6.3
   tsx: ^3.12.5
   typescript: ^4.9.5
@@ -15,6 +16,7 @@ dependencies:
   dotenv: 16.0.3
   fastify: 4.14.1
   redis: 4.6.5
+  redis-om: 0.3.6
   tsx: 3.12.5
 
 devDependencies:
@@ -2628,6 +2630,14 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
+  /redis-om/0.3.6:
+    resolution: {integrity: sha512-WRmrAm1n1EQIQbEwbfqpceuxHgr7LKOZ471c/KGxyOTVFFm53E0S7vFSZA7a1Jnga7aHTOYqLhhMWE0lKKdsNw==}
+    engines: {node: '>= 14'}
+    dependencies:
+      redis: 4.6.5
+      ulid: 2.3.0
+    dev: false
+
   /redis/4.6.5:
     resolution: {integrity: sha512-O0OWA36gDQbswOdUuAhRL6mTZpHFN525HlgZgDaVNgCJIAZR3ya06NTESb0R+TUZ+BFaDpz6NnnVvoMx9meUFg==}
     dependencies:
@@ -3189,6 +3199,11 @@ packages:
   /ufo/1.1.1:
     resolution: {integrity: sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==}
     dev: true
+
+  /ulid/2.3.0:
+    resolution: {integrity: sha512-keqHubrlpvT6G2wH0OEfSW4mquYRcbe/J8NMmveoQOjUqmo+hXtO+ORCpWhdbZ7k72UtY61BL7haGxW6enBnjw==}
+    hasBin: true
+    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}

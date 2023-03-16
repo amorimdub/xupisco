@@ -1,5 +1,11 @@
 # xupisco
 
+## 1.0.2
+
+### Patch Changes
+
+- 8494649: npm publish
+
 ## 1.0.1
 
 ### Patch Changes

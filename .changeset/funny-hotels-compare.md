@@ -1,5 +1,0 @@
----
-"xupisco": patch
----
-
-npm publish
